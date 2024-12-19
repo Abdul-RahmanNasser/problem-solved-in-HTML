@@ -1,0 +1,140 @@
+<!--
+    تعلم HTML في 2021 - درس 11_ - تنسيق العناصر Formatting Elements(480P)
+    b ==> bold
+    strong ==> bold ==> important text
+    i ==> italic
+    em ==> emphasized
+    mark ==> marked text or highlighted text
+    u ==> underline
+    small ==> smaller text
+    del ==> delated text
+    ins ==> inserted text
+    sub ==> subscript
+    sup ==> superscript
+    <a href="https://www.google.com/?hl=ar" target="_blank" title="Go to Google">Google</a>
+    <a href="https://www.facebook.com/?hl=ar" title="Go to Facebook">Facebook</a>
+    <a href="test.html" title="Go to Test">Test</a>
+    <a href="#abdo" title="Go to abdo">abdo</a>
+    <a href="mailto:bodysttar@gmail.com">contact me</a>
+    <p id="abdo">Abdul-Rahman Nasser Abdul-sttar How to View HTML SourceHave you ever seen a Web page and wondered "Hey! How did they do that?"View HTML Source Code:Click CTRL + U in an HTML page, or right-click on the page and select "View Page Source". This will open a new tab containing the HTML source code of the page.Inspect an HTML Element:Right-click on an element (or a blank area), and choose "Inspect" to see what elements are made up of (you will see both the HTML and the CSS). You can also edit the HTML or CSS on-the-fly in the Elements or Styles panel that opens.</p>
+
+    تعلم HTML في 2021 - درس 13_ - الصور وكيفية التعامل مع المسارات(480P)
+    src ==> source
+    alt ==> alternate text
+    <img src="https://img.youtube.com/vi/ZFb_eaYtWwY/maxresdefault.jpg" alt="That will not appear ." width="100px" height="100"/>
+    <img src="images/home/snake.jpg" alt="That will not appear ." width="100px" height="100"/>
+    <img src="../Assignments/snake.jpg" alt="That will not appear ."/>
+    <img src="missed-image.jpg" alt="Logo Test"/>
+
+    تعلم HTML في 2021 - درس 14_ - القوائم بأنواعها UL_ OL_ DL(480P)
+    ul ==> unordered list
+    li ==> hist items
+    ol ==> ordered list
+    reversed ==> reversing the ordering
+    start    ==> start from position
+    type     ==> type of ordering
+    dl ==> description list
+    dt ==> term 
+    dd ==> description term 
+ -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <!-- Assignment 01 -->
+        <h1>My Info</h1>
+        <p>My name is : <b>Abdul-Rahman Nasser</b></p>
+        <p>I am <strong>available</strong> for hire</p>
+        <p>My hour old price is <del>$10</del> and the new price is <mark>$30</mark></p>
+        <p>
+            Visit my website from this link 
+            <a href="https://elzero.org/" target="_blank">
+                Elzero Academy
+            </a>
+        </p>
+        <hr/>
+        <h1>Here is some of my clients</h1>
+        <img src="تنزيل (1).png" alt="It is my picture" width="50px" height="50px"/>
+        <img src="تنزيل (1).png" alt="It is my picture" width="50px" height="50px"/>
+        <img src="تنزيل (1).png" alt="It is my picture" width="50px" height="50px"/>
+        <hr/>
+        <h1>My skills</h1>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>
+                JavaScript
+                <ul>
+                    <li>Vuejs</li>
+                    <li>Reactjs</li>
+                    <li>
+                        Angular
+                        <ol start="4">
+                            <li>v4.0</li>
+                            <li>v5.0</li>
+                            <li>v6.0</li>
+                            <li>v7.0</li>
+                            <li>v8.0</li>
+                        </ol>
+                    </li>
+                    <li>Svelte</li>
+                </ul>
+            </li>
+            <li>Python</li>
+        </ul>
+        <hr/>
+        <hr/>
+        <hr/>
+        <!-- Assignment 02 -->
+        <ul>
+            <li>
+                One
+                <ol type="A" start="3">
+                    <li>C</li>
+                    <li>D</li>
+                    <li>E</li>
+                </ol>
+            </li>
+            <li>
+                Two
+                <ol type="I">
+                    <li value="3">3</li>
+                    <li>4</li>
+                    <li>5</li>
+                </ol>
+            </li>
+            <li>
+                Three
+                <ol reversed type="a" start="4">
+                    <li>d</li>
+                    <li>c</li>
+                    <li>b</li>
+                </ol>
+            </li>
+        </ul>
+        <hr/>
+        <hr/>
+        <hr/>
+        <!-- 
+            Assignment 03
+            HTML a tag is used to reach to 
+                1.anther page in same window or other window .
+                2.another paragraph in the same page by HTML id attribute.
+                3.an email .
+                4.a file its extension is html .
+            Assignment 04
+         -->
+        <dl>
+            <dt>Learn programming</dt>
+            <dd>Learn computer science</dd>
+            <dd>Learn database</dd>
+            <dt>Design</dt>
+            <dd>Learn graphics</dd>
+            <dd>Learn sketching</dd>
+        </dl> 
+    </body>
+</html>

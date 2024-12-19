@@ -1,0 +1,71 @@
+<!--
+    <label>Color</label>
+    <input type="color" name="color">
+    <label>Number</label>
+    <input type="number" name="number" min="0" max="100" step="20" value="0">
+ -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <!-- Assignment 01 -->
+        <form action="test.py" method="post">
+            <div>
+                <label>Username</label>
+                <br>
+                <input type="text" 
+                required placeholder="Username must contain numbers , - , _ , @ ." 
+                name="Username"/>
+                <hr>
+            </div>
+            <div>
+                <label>Password</label>
+                <br>
+                <input type="password" 
+                placeholder="Password must contain numbers , - , _ , @ ." 
+                name="password"/>
+                <hr>
+            </div>
+            <div>
+                <label>Mobile</label>
+                <br>
+                <input type="tel" 
+                placeholder="Write the mobile number with code of the country" 
+                name="mobile"/>
+                <hr>
+            </div>
+            <div>
+                <label>Email</label>
+                <br>
+                <inputtype="email" 
+                required placeholder="it belongs to Google" name="email"/>
+                <hr>
+            </div>
+            <div>
+                <label>Subject</label>
+                <br>
+                <input type="text" placeholder="It must at least 10 letters" name="sub">
+                <hr>
+            </div>
+            <input type="number" hidden>
+            <input type="submit" value="Send data">
+            <input type="reset" value="Empty form">
+            <hr>
+            <hr>
+            <hr>
+            <!-- Assignment 02 -->
+            <div>
+                <label>Range</label>
+                <br>
+                <input 
+                    type="range" 
+                    name="range" min="0" max="1000" step="50" value="400">
+                <hr>
+            </div>
+        </form>
+    </body>
+</html>
